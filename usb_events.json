@@ -1,0 +1,20 @@
+[
+  {
+    "id": "usb_1773223730",
+    "drive": "D:",
+    "label": "hp64w",
+    "connected_at": "2026-03-11 15:38:50",
+    "files_scanned": 1,
+    "threat_count": 1,
+    "status": "threat",
+    "findings": [
+      {
+        "file": "autorun.inf",
+        "full_path": "D:\\autorun.inf",
+        "rule": "Suspicious Autorun File",
+        "severity": "critical",
+        "detail": "Autorun file detected in USB root: autorun.inf"
+      }
+    ]
+  }
+]
