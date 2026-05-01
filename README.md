@@ -1,42 +1,32 @@
-Hybrid Host Intrusion Detection System (HIDS)
-Overview
+🛡️ Hybrid Host Intrusion Detection System (HIDS)
 
-The Hybrid Host Intrusion Detection System (HIDS) is a security monitoring solution designed to detect suspicious activities on a host machine in real time. It combines multiple monitoring techniques such as USB device tracking, file integrity checking, and email-based alert notifications to improve system protection against unauthorized access and malicious behavior.
 
-This project demonstrates practical implementation of host-level security monitoring using Python.
+A Hybrid Host Intrusion Detection System (HIDS) designed to monitor system-level activities in real time and detect suspicious behavior such as unauthorized USB access and file modifications. The system automatically logs threats and sends instant email alerts to administrators.
 
-Features
-Real-time USB device detection
-Unauthorized device access alerts
-File activity monitoring
-Email notification system for detected threats
-Logging of suspicious activities
-Lightweight and efficient monitoring
-Modular architecture for easy extension
-System Architecture
+📌 Project Highlights
 
-The system consists of the following modules:
+✅ Real-time USB device detection
+✅ File activity monitoring
+✅ Email-based intrusion alerts
+✅ Suspicious event logging
+✅ Lightweight and modular architecture
+✅ Designed for endpoint-level security monitoring
 
-1. USB Guard Module
+🚀 Features
+🔌 USB Guard Module
 Detects newly connected USB devices
 Identifies unauthorized storage access
-Logs device details
-Triggers alerts when suspicious activity occurs
-2. File Monitoring Module
-Tracks changes in selected directories
+Logs device information
+Triggers alerts automatically
+📂 File Monitoring Module
+Tracks directory activity
 Detects unauthorized modifications
-Maintains activity logs
-3. Email Alert Module
-Sends instant alerts when threats are detected
-Uses SMTP protocol for notifications
-Notifies administrator in real time
-4. Logging System
-Records all detected events
-Maintains activity history for analysis
-Technologies Used
-Python
-OS module
-smtplib
-threading
-logging
-watchdog (optional if used for file monitoring)
+Records suspicious operations
+📧 Email Alert System
+Sends instant threat notifications
+Uses SMTP-based secure alerts
+Supports administrator monitoring
+📝 Logging System
+Maintains event history
+Tracks intrusion attempts
+Helps forensic analysis
